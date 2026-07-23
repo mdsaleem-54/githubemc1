@@ -1,0 +1,73 @@
+<form action="">
+
+    <div>
+    <label for="username">username</label>
+    <input type="text" name="username" id="username" placeholder="username" value="raj" size="5" maxlength="6" required>
+    </div>
+
+    <div>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="password" minlength="5" required>
+    </div>
+
+    <div>
+        <label for="year of birth">year of birth</label>
+        <input type="number" name="year of birth" id="year of birth" maxlength="4" min="1900" step="10">
+    </div>
+
+    <div>
+        <label for="date of birth">date of birth</label>
+        <input type="date" name="date of birth" id="date of birth" min="2002-09-02">
+    </div>
+
+    <div>
+        <input type="hidden" name="hidden" id="hidden" value="123">
+    </div>
+
+    <div>
+        <label for="about">about</label>
+        <textarea name="about" id="about" cols="30" rows="4">aboutme..</textarea>
+    </div>
+
+    <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+
+    <div>
+        <label for="smsalert">smsalert</label>
+        <input type="checkbox" name="smsalert" id="smsalert">
+    </div>
+
+    <div>
+        <label for="emailalert">emailalert</label>
+        <input type="checkbox" name="emailalert" id="emailalert">
+    </div>
+
+    <div>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+    </div>
+
+    <div>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>
+
+    <div>
+        <select name="state" id="state" multiple>
+            <option value="tamilnadu">tamilnadu</option>
+            <option value="andhra pradesh">ap</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="file">file</label>
+        <input type="file" name="file" id="file" >
+    </div>
+
+    <button type="submit">signup</button>
+    <button type="reset">reset</button>
+    
+</form>
